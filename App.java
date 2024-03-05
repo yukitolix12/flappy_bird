@@ -6,5 +6,6 @@ public class App {
         int boardHeight = 360;
 
         JFrame frame = new JFrame("Flappy Bird");
+        frame.setVisible(true);
     }
 }

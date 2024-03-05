@@ -9,5 +9,6 @@ public class App {
         frame.setVisible(true);
         frame.setLocationRelativeTo(null);
         frame.setResizable(false);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 }

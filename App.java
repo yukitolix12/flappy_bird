@@ -7,5 +7,6 @@ public class App {
 
         JFrame frame = new JFrame("Flappy Bird");
         frame.setVisible(true);
+        frame.setLocationRelativeTo(null);
     }
 }

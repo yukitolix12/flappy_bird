@@ -4,6 +4,6 @@ import java.util.ArrayList;
 import java.util.Random;
 import javax.swing.*;
 
-public class FlappyBird {
+public class FlappyBird extends JPanel {
     
 }

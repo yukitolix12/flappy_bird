@@ -12,6 +12,6 @@ public class App {
         frame.setResizable(false);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        FlappyBird flappyBird = new flappyBird();
+        FlappyBird flappyBird = new FlappyBird();
     }
 }

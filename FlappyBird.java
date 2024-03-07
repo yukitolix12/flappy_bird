@@ -26,4 +26,8 @@ public class FlappyBird extends JPanel {
         topPipeImg = new ImageIcon(getClass().getResource("./toppipe.png")).getImage();
         bottomPipeImg = new ImageIcon(getClass().getResource("./bottompipe.png")).getImage();
     }
+
+    public void paintComponent(Graphics g) {
+        
+    }
 }

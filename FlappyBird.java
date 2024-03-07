@@ -28,6 +28,7 @@ public class FlappyBird extends JPanel {
     }
 
     public void paintComponent(Graphics g) {
-        
+        super.paintComponent(g);
+        draw(g);
     }
 }

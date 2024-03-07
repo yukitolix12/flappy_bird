@@ -31,4 +31,8 @@ public class FlappyBird extends JPanel {
         super.paintComponent(g);
         draw(g);
     }
+
+    public void draw(Graphics g){
+        //background
+    }
 }

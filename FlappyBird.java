@@ -26,6 +26,10 @@ public class FlappyBird extends JPanel {
         int width = birdWidth;
         int height = birdHeight;
         Image img;
+
+        Bird(Image img){
+            
+        }
     }
 
     FlappyBird(){

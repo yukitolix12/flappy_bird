@@ -17,6 +17,8 @@ public class FlappyBird extends JPanel {
     //Bird
     int birdX = boardWidth/8;
     int birdY = boardHeight/2;
+    int birdWidth = 34;
+    int birdHeight = 24;
 
     FlappyBird(){
         setPreferredSize(new Dimension(boardWidth, boardHeight));

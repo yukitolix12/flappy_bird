@@ -32,6 +32,9 @@ public class FlappyBird extends JPanel {
         }
     }
 
+    //game logic
+    Bird bird;
+
     FlappyBird(){
         setPreferredSize(new Dimension(boardWidth, boardHeight));
         //setBackground(Color.blue);

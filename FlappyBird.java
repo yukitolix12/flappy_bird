@@ -66,4 +66,10 @@ public class FlappyBird extends JPanel implements ActionListener {
         //bird
         g.drawImage(bird.img, bird.x, bird.y, bird.width, bird.height, null);
     }
+
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'actionPerformed'");
+    }
 }

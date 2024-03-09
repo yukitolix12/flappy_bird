@@ -35,7 +35,7 @@ public class FlappyBird extends JPanel {
     //game logic
     Bird bird;
 
-    Timer gameloop;
+    Timer gameLoop;
 
     FlappyBird(){
         setPreferredSize(new Dimension(boardWidth, boardHeight));
@@ -49,6 +49,9 @@ public class FlappyBird extends JPanel {
 
         //bird
         bird = new Bird(birdImg);
+
+        //game timer
+        gameLoop = new Timer(1000/60, this); //1000/60 = 16.6
     }
 
     public void paintComponent(Graphics g) {

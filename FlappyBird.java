@@ -77,6 +77,7 @@ public class FlappyBird extends JPanel implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
+        move();
         repaint();
     }
 }

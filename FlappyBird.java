@@ -71,7 +71,8 @@ public class FlappyBird extends JPanel implements ActionListener {
     }
 
     public void move(){
-        
+        //bird
+        bird.y = velocityY;
     }
 
     @Override

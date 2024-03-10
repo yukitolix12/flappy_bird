@@ -70,6 +70,10 @@ public class FlappyBird extends JPanel implements ActionListener {
         g.drawImage(bird.img, bird.x, bird.y, bird.width, bird.height, null);
     }
 
+    public void move(){
+        
+    }
+
     @Override
     public void actionPerformed(ActionEvent e) {
         repaint();

@@ -52,7 +52,7 @@ public class FlappyBird extends JPanel implements ActionListener {
 
         //game timer
         gameLoop = new Timer(1000/60, this); //1000/60 = 16.6
-        //gameLoop.start();
+        gameLoop.start();
     }
 
     public void paintComponent(Graphics g) {

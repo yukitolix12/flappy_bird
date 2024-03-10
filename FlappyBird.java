@@ -73,6 +73,7 @@ public class FlappyBird extends JPanel implements ActionListener {
 
     public void move(){
         //bird
+        velocityY += gravity;
         bird.y += velocityY;
         bird.y = Math.max(bird.y, 0);
     }

@@ -43,6 +43,7 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
         setPreferredSize(new Dimension(boardWidth, boardHeight));
         //setBackground(Color.blue);
         setFocusable(true);
+        addKeyListener(this);
 
         //load Images
         backgroundImg = new ImageIcon(getClass().getResource("./flappybirdbg.png")).getImage();

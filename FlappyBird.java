@@ -34,7 +34,7 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
 
     //game logic
     Bird bird;
-    int velocityY = -9;
+    int velocityY = 0;
     int gravity = 1;
 
     Timer gameLoop;

@@ -85,7 +85,11 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
     }
 
     @Override
-    public void keyPressed(KeyEvent e) {}
+    public void keyPressed(KeyEvent e) {
+        if (e.getKeyCode() == KeyEvent.VK_SPACE){
+            
+        }
+    }
 
     @Override
     public void keyTyped(KeyEvent e) {}

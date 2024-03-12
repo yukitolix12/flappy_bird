@@ -47,7 +47,7 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
         boolean passed = false;
 
         Pipe(Image img){
-            
+            this.img = img;
         }
     }
 

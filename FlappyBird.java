@@ -39,7 +39,11 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
     int pipeHeight = 512;
 
     class Pipe {
-        
+        int x = pipeX;
+        int y = pipeY;
+        int width = pipeWidth;
+        int height = pipeHeight;
+
     }
 
     //game logic

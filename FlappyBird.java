@@ -32,6 +32,10 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
         }
     }
 
+    //PIpes
+    int pipeX = boardWidth;
+    int pipeY = 0;
+
     //game logic
     Bird bird;
     int velocityY = 0;

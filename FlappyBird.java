@@ -44,6 +44,7 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
         int width = pipeWidth;
         int height = pipeHeight;
         Image img;
+        boolean passed = false;
     }
 
     //game logic

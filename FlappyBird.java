@@ -81,6 +81,10 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
         gameLoop.start();
     }
 
+    public void placePipes(){
+        
+    }
+
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
         draw(g);

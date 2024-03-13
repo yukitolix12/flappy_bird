@@ -60,6 +60,7 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
     ArrayList<Pipe> pipes;
 
     Timer gameLoop;
+    Timer placePipesTimer;
 
     FlappyBird(){
         setPreferredSize(new Dimension(boardWidth, boardHeight));

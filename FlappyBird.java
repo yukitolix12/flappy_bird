@@ -94,6 +94,10 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
     }
 
     public void placePipes(){
+        //(0 - 1) * pipeHeight/2 ->(0 - 256)
+        //128
+        //0 - 128 - (0-256) --> pipeHeight/4 -> 3/4 pipeHeight
+
         int randomPipeY = (int )(pipeY - pipeHeight/4 - Math.random()*(pipeHeight/2));
         Pipe topPipe = new Pipe(topPipeImg);
         pipes.add(topPipe);

@@ -142,6 +142,10 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
             Pipe pipe = pipes.get(i);
             pipe.x += velocityX; 
         }
+
+        if (bird.y > boardHeight) {
+            gameOver = true;
+        }
     }
 
     @Override

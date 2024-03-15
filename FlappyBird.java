@@ -152,6 +152,9 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
     public void actionPerformed(ActionEvent e) {
         move();
         repaint();
+        if (gameOver){
+            placePipesTimer.stop();
+        }
     }
 
     @Override

@@ -148,6 +148,10 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
         }
     }
 
+    public boolean collision(Bird a, Pipe b){
+        
+    }
+
     @Override
     public void actionPerformed(ActionEvent e) {
         move();

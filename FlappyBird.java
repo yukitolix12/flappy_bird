@@ -154,6 +154,7 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
             pipe.x += velocityX; 
 
             if(!pipe.passed && bird.x > pipe.x + pipe.width){
+                score += 0.5; //0.5 because there are 2 pipes! so 0.5*2 = 1, 1 for each set of pipes
                 pipe.passed = true;
             }
 
@@ -164,7 +165,6 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
 
         if (bird.y > boardHeight) {
             gameOver = true;
-            score += 0.5; //0.5 because there are 2 pipes! so 0.5*2 = 1, 1 for each set of pipes
         }
     }
 

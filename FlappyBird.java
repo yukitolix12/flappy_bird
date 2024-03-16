@@ -149,7 +149,10 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
     }
 
     public boolean collision(Bird a, Pipe b){
-        
+        return a.x < b.x + b.width &&
+               a.x + b.width > b.x &&
+               a.y < b.y + b.height &&
+               a.y + b.height > b.y;
     }
 
     @Override

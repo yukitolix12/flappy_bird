@@ -154,6 +154,7 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
         repaint();
         if (gameOver){
             placePipesTimer.stop();
+            gameLoop.stop();
         }
     }
 

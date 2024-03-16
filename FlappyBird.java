@@ -62,8 +62,8 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
 
     Timer gameLoop;
     Timer placePipesTimer;
-
     boolean gameOver = false;
+    double score = 0;
 
     FlappyBird(){
         setPreferredSize(new Dimension(boardWidth, boardHeight));

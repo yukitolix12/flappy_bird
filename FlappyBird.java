@@ -132,6 +132,7 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
 
         //score
         g.setColor(Color.white);
+
         g.setFont(new Font("Arial", Font.PLAIN, 32));
         if(gameOver){
             g.drawString("Game Over: " + String.valueOf((int) score), 10, 35);
@@ -171,7 +172,7 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
         return a.x < b.x + b.width && //a's top left corner doesn't reach b's top right corner
                a.x + a.width > b.x && //a's top right corner passes b's top left corner
                a.y < b.y + b.height && //a's top left corner doesn't reach b's bottom left corner
-               a.y + b.height > b.y;  //a's bottom left corner passes b's top left corner
+               a.y + a.height > b.y;  //a's bottom left corner passes b's top left corner
     }
 
     @Override

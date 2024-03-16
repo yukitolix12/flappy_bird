@@ -129,6 +129,9 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
             Pipe pipe = pipes.get(i);
             g.drawImage(pipe.img, pipe.x, pipe.y, pipe.width, pipe.height, null);
         }
+
+        //score
+        g.setColor(Color.white);
     }
 
     public void move(){

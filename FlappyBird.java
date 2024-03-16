@@ -153,6 +153,7 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
 
         if (bird.y > boardHeight) {
             gameOver = true;
+            score += 0.5;
         }
     }
 
